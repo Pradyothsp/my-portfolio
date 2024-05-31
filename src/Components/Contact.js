@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import LinkedInBadge from './LinkedInBadge';
 
 export default function Contact() {
     return (
@@ -25,8 +26,8 @@ export default function Contact() {
             <button className="m-5 p-4 w-30 bg-green-500 transition-transform transform hover:text-white hover:-translate-y-5 rounded-lg">
                 <FontAwesomeIcon icon={faLinkedinIn} className="text-2xl"></FontAwesomeIcon>
                 <a href="https://www.linkedin.com/in/pradyothsp/" className="p-2 text-2xl text-white" target="_blank">Send a message on LinkedIn</a>
-
             </button>
+            {/* <LinkedInBadge /> */}
         </section>
     );
 }
