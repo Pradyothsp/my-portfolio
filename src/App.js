@@ -9,27 +9,24 @@ import Social from "./Components/Social.js"
 import CreatedBy from "./Components/CreatedBy.js"
 
 
-
-
 export default function App() {
-  return (
-    <div className="flex flex-wrap">
-      <div className="sm:w-1/12  bg-gray-900">
-       
-       <Social/>
-      </div>
-    
-    <main className=" w-full text-white bg-gray-900 body-font ">
-      
-      <Navbar />
-      <About />
-      <Experience />
-      <Projects />
-      <Skills />
-      <Contact />
-      <CreatedBy />
+    return (
+        <div className="flex flex-wrap">
+            <div className="sm:w-1/12  bg-gray-900">
 
-    </main>
-    </div>
-  );
+                <Social />
+            </div>
+
+            <main className=" w-full text-white bg-gray-900 body-font ">
+                <Navbar />
+                <About />
+                <Experience />
+                <Projects />
+                <Skills />
+                <Contact />
+                <CreatedBy />
+
+            </main>
+        </div>
+    );
 }
