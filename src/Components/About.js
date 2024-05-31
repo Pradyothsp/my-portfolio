@@ -26,14 +26,14 @@ export default function About() {
             </p>
 
           </h1>
-          <a href="https://drive.google.com/file/d/1lt7pe1R91vMgcblIpeKo5Zj-_y1H9lwv/view?usp=sharing"
-            className="inline-flex items-center bg-gray-700 border-0 py-4 px-4 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0  text-xl">
-
-            Download my resume
-            <div style={{ transform: 'rotate(-45deg)' }}>
-              <ArrowRightIcon className="h-5 w-5" />
-            </div>
+          <a
+            href="./Pradyoth_resume.pdf"
+            className="inline-flex items-center bg-gray-700 border-0 py-4 px-4 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0 text-xl"
+            download
+          >
+            Download My Resume
           </a>
+
         </div>
         <img src="./profile.png" alt="image" className="md:w-90 md:h-90 sm:w-2/5 xs:w-20 xs:h-20 ml-200" />
       </div>
