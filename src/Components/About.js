@@ -27,7 +27,7 @@ export default function About() {
 
                     </h1>
                     <a
-                        href="./Pradyoth_resume.pdf"
+                        href="https://pradyothsp.github.io/my-portfolio/Pradyoth_Resume.pdf"
                         className="inline-flex items-center bg-gray-700 border-0 py-4 px-4 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0 text-xl"
                         download
                     >
