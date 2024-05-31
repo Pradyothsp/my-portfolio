@@ -12,7 +12,7 @@ export default function About() {
             <p className="sm:text-6xl text-6xl text-green-300">
               Pradyoth S. P.
             </p>
-            <p className="text-white mt-5 sm:text-2xl text-xl"> Python/Django Developer | Backend & ML Specialist | Computer Vision | AWS, Docker, TensorFlow, REST API, GraphQL, Celery, PostgreSQL </p>
+            <p className="text-white mt-5 sm:text-2xl text-xl"> Python/Django Developer | Backend & ML Specialist | Computer Vision | AWS, Docker, TensorFlow, PyTorch, REST API, GraphQL, Celery, PostgreSQL </p>
             <br />
             <p className="title-font sm:text-xl text-xl mb-4 font-medium text-gray-400 text-justify">
               <br className="hidden lg:inline-block " />
