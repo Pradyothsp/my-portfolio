@@ -1,44 +1,101 @@
 [
   {
     "id": 1,
-    "duration": "May 2023 - October 2023",
-    "title": "Engineering Intern",
-    "company": "Commvault Systems",
+    "duration": "January 2024 - present",
+    "title": "Capstone Project in Collaboration with U.S. Fish & Wildlife Service",
+    "company": "University of Massachusetts Dartmouth",
     "description": [
-      "Contributed to a cybersecurity project focusing on Operating System hardening and configuration management.",
-    "Spearheaded rigorous OS hardening tests using CIS tools, resulting in improved system security and elevated CIS score by 21%.", 
-    "Developed tailored manifest files for LAMP configurations using shell scripting, ensuring consistent environment setups.",
-    "Orchestrated VM creation and image deployment (VMDK/OVF) utilising VMware EXSi."
+      "Processed 20,000+ fish videos for species identification and length measurement, achieving 94% accuracy and reducing manual analysis time by over 80%.",
+      "Built a scalable Django web application for concurrent processing of up to 100 videos with real-time updates via AJAX, enhancing user experience."
     ],
-    "skills": ["Linux", "LAMP", "Cybersecurity", "CIS"],
-    "website": "https://www.commvault.com/?utm_source=google&utm_medium=cpc&utm_campaign=amer_brand&utm_content=text-link&gad_source=1&gclid=EAIaIQobChMI7-Xlku7chQMV_yqtBh2nOQWnEAAYASAAEgLq2PD_BwE"
+    "skills": [
+      "Django",
+      "Django ORM",
+      "REST API",
+      "Docker",
+      "PostgreSQL",
+      "OpenCV",
+      "Celery",
+      "Redis",
+      "AJAX"
+    ],
+    "website": ""
   },
   {
     "id": 2,
-    "duration": "December 2020 - June 2022",
-    "title": "Software Engineer",
-    "company": "eQ Technologic Pvt. Ltd.",
+    "duration": "January 2022 - July 2022",
+    "title": "Associate Backend Developer",
+    "company": "Metalab Innovation LLP. (QNIX)",
     "description": [
-      "Engineered and modeled Java connectors facilitating data operations between enterprise systems and EQ’s business intelligence and migration products.",
-    " Executed Maven-based cross-platform integration performing CRUD functionalities in SQL and NoSQL database connectors using an extended JDBC framework.",
-    "Created microservices for a graph database’s Next-Gen connector, resulting in a 27% performance boost verified by QA.",
-    "Incorporated efficient Object-Oriented Programming principles and Java features to implement diverse functionalities complemented by rigorous unit testing using JUnit5 framework.",
-    "Enhanced code quality through SonarQube-compliant refactoring and reformatting, boosting maintainability and efficiency.",
-    "Well-versed with test-driven development, version control system, customer interaction and troubleshooting and Jenkins.",
-    "Led and mentored a team of 2 junior colleagues, demonstrating effective leadership and management skills."
-  ],
-    "skills": ["Java", "JDBC", "SQL", "NoSQL","Maven", "POSTGRESQL","OOP", "Junit", "Restful API"],
-    "website": "https://www.1eq.com/"
+      "Lead Developer: Qelza - Work Management Solution",
+      "Spearheaded Qelza's back-end development (Django, scalable database) with a 5-developer team, ensuring on-time, on-budget delivery for Happi Mobiles.",
+      "Architected efficient GraphQL API schema for Qelza, boosting data querying/manipulation by 50% vs. prior REST API, for streamlined development and complex data interactions.",
+      "Implemented thorough code review processes to ensure code quality, adherence to best practices, and knowledge sharing among team members, resulting in a 40% decrease in bugs and improved overall code maintainability.",
+      "Deployed GitLab CI/CD pipelines for continuous integration and deployment, and containerized the application using Docker for enhanced scalability, reducing deployment times by 30%.",
+      "Demonstrated effective project leadership by overseeing timelines, resource allocation, and collaboration, while also engaging with client stakeholders to understand and meet specific requirements. Implemented rigorous testing procedures, resulting in a 50% reduction in post-deployment issues. ",
+      "Maintained comprehensive documentation for codebase and API specifications, contributing to a 25% increase in development team productivity."
+    ],
+    "skills": [
+      "Django",
+      "AWS EC2",
+      "GitLab CI/CD",
+      "Docker",
+      "GraphQL (Ariadne)",
+      "PostgreSQL",
+      "Pytest",
+      "Postman",
+      "API Documentation"
+    ],
+    "website": ""
   },
-
   {
     "id": 3,
-    "duration": "June 2019 - July 2019",
-    "title": "Intern",
-    "company": "Winpoint Learning Center",
-    "description": ["Built a web application, applying various JAVA design patterns to architect the system, utilizing servlets for dynamic web support, and JDBC for backend connectivity.",
-    "Wrote more than 50 test cases for modules and performed unit testing of the system as a part of QA team."],
-    "skills": ["Java", "Servlets", "SQL"],
-    "website": "http://www.winpointlc.com/"
+    "duration": "July 2021 - February 2022",
+    "title": "Machine Learning Engineer",
+    "company": "Metalab Innovation LLP. (QNIX)",
+    "description": [
+      "Large Scale Tattoo Detection System",
+      "Developed a highly accurate (~91%) tattoo detection and identification system using YOLO and PyTorch, demonstrating efficient object recognition capabilities.",
+      "Enhanced the tattoo detection system by developing a user-friendly Django API with secure OTP-based login, streamlining user experience.",
+      "Converted the dataset to Pascal VOC 2012 format, leveraging its structured annotation and organization advantages for improved model training and evaluation."
+    ],
+    "skills": [
+      "Django",
+      "PyTorch",
+      "AWS S3",
+      "AWS EC2",
+      "AWS Lambda",
+      "YOLO",
+      "OpenCV",
+      "Docker"
+    ],
+    "website": ""
+  },
+  {
+    "id": 4,
+    "duration": "September 2019 - June 2021",
+    "title": "Deep Learning Engineer",
+    "company": "Metalab Innovation LLP. (QNIX)",
+    "description": [
+      "Advanced Camera Analytics",
+      "Worked with one of India’s largest retail companies (Happi Mobiles), where I played a key role in designing and implementing robust deep learning algorithms. Engineered a YOLO-based deep learning algorithm with parallel processing, achieving ~95% accuracy in person detection, and realizing a speedup of 2.4 with an efficiency improvement to 30.30%.",
+      "Implemented triplet loss for face clustering, resulting in a 15% reduction in false positives and a 20% improvement in identification accuracy, ultimately achieving an 87% recognition rate.",
+      "Optimized and maintained an Airflow scheduler, automating and efficiently managing cron jobs, saving approximately 2 hours daily per engineer. This ensured seamless and timely operations of critical processes.",
+      "Played a pivotal role as a core researcher in topics related to Object detection and clustering. This contribution led to the successful launch of projects with 2 new clients and marked the company’s inaugural venture into in-house Advanced Camera Analytics."
+    ],
+    "skills": [
+      "TensorFlow",
+      "Apache Airflow",
+      "Quicksight",
+      "Triplet loss",
+      "Parallel Computing",
+      "AWS S3",
+      "AWS EC2",
+      "AWS Lambda",
+      "YOLO",
+      "OpenCV",
+      "Docker"
+    ],
+    "website": ""
   }
 ]
