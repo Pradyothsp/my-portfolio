@@ -1,52 +1,42 @@
 import React from "react"
 import { ArrowRightIcon } from "@heroicons/react/solid";
 export default function About() {
-    return (
-        <section id="about">
-        <div className="container mx-auto flex px-20 py-40 md:flex-row flex-col items-center">
-            
-          <div className="lg:flex-grow md:w-3/4 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-400">
-              Hi, I'm 
-              <br/>
-              <p className="sm:text-6xl text-6xl text-green-300">
-              Sanika Gandhe.
-              </p>
-              <p className="text-white mt-5 sm:text-2xl text-xl">Software Engineer | MS in Software Engineering | BTech in Computer Engineering </p>
-              <br/>
-              <p className="title-font sm:text-xl text-xl mb-4 font-medium text-gray-400 text-justify">
+  return (
+    <section id="about">
+      <div className="container mx-auto flex px-20 py-40 md:flex-row flex-col items-center">
+
+        <div className="lg:flex-grow md:w-3/4 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-gray-400">
+            Hi, I'm
+            <br />
+            <p className="sm:text-6xl text-6xl text-green-300">
+              Pradyoth S. P.
+            </p>
+            <p className="text-white mt-5 sm:text-2xl text-xl"> Python/Django Developer | Backend & ML Specialist | Computer Vision | AWS, Docker, TensorFlow, REST API, GraphQL, Celery, PostgreSQL </p>
+            <br />
+            <p className="title-font sm:text-xl text-xl mb-4 font-medium text-gray-400 text-justify">
               <br className="hidden lg:inline-block " />
-              I am a May 2024 graduate, driven by an insatiable hunger to explore every facet of Software Development, 
-              constantly seeking new challenges and opportunities to expand my knowledge. 
-              As a dedicated Tech enthusiast, I thrive on innovation and am fueled by the endless possibilities of 
-              technology.
-              <br/>
-              <br/>
-            Whether it's tackling the complexities of full-stack development, 
-              crafting seamless frontend experiences, architecting robust backend systems, mining insights from data,
-              or ensuring the quality of software through rigorous testing, 
-              I am actively seeking dynamic roles in software, spanning full-stack, backend, frontend, data, 
-              and test engineering.
-              <br/>
-              <br/>
-              Let's excel together, one line of code at a time!
-              </p>
-             
-            </h1>
-            <a href="https://drive.google.com/file/d/1lt7pe1R91vMgcblIpeKo5Zj-_y1H9lwv/view?usp=sharing" 
-             className="inline-flex items-center bg-gray-700 border-0 py-4 px-4 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0  text-xl">
-             
-            Download full resume
+              I am Python/Django developer with a Master’s in Data Science from UMass Dartmouth. I specialize in web development, big data, data science and cloud technologies. My skills include Python, Django, SQL, API development and tools like Docker, AWS, and Apache Kafka. I've led development teams, optimized APIs, and enhanced deployment processes. Notable projects include a large-scale fish video analysis system and advanced camera analytics.
+              <br />
+              <br />
+              I thrive on solving complex problems and creating scalable solutions. My experience has equipped me to handle diverse challenges, from developing efficient APIs to implementing deep learning algorithms.
+              <br />
+              <br />
+              I’m passionate about continuous learning and innovation. Connect with me on LinkedIn or explore my work on GitHub. Let's innovate together!
+            </p>
+
+          </h1>
+          <a href="https://drive.google.com/file/d/1lt7pe1R91vMgcblIpeKo5Zj-_y1H9lwv/view?usp=sharing"
+            className="inline-flex items-center bg-gray-700 border-0 py-4 px-4 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0  text-xl">
+
+            Download my resume
             <div style={{ transform: 'rotate(-45deg)' }}>
-                <ArrowRightIcon className="h-5 w-5" />
-                </div>
-            </a>
+              <ArrowRightIcon className="h-5 w-5" />
             </div>
-        <img src="./IMG_5624.png"  alt="image" className="md:w-90 md:h-90 sm:w-2/5 xs:w-20 xs:h-20 ml-200"/>
-            
-    
-        
-            </div>
-            </section>
-    );
+          </a>
+        </div>
+        <img src="./IMG_5624.png" alt="image" className="md:w-90 md:h-90 sm:w-2/5 xs:w-20 xs:h-20 ml-200" />
+      </div>
+    </section>
+  );
 }
