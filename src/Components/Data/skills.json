@@ -48,6 +48,30 @@
         ]
     },
     {
+        "title": "AI & ML",
+        "tech": [
+            "XGBoost",
+            "OpenCV",
+            "Pandas",
+            "Numpy",
+            "Scikit-learn",
+            "Matplotlib",
+            "Seaborn"
+        ]
+    },
+    {
+        "title": "Computer Vision",
+        "tech": [
+            "TensorFlow",
+            "Keras",
+            "PyTorch",
+            "YOLO",
+            "Ultralytics",
+            "Supervision",
+            "Roboflow"
+        ]
+    },
+    {
         "title": "DevOps & Tools",
         "tech": [
             "Git",
