@@ -1,81 +1,73 @@
 [
-  { 
-    "id": 1, 
-    "title": "Vast Challenge 2022- MC 3 - Economic Issues and Financial Health", 
-    "description": 
-    "Constructed a web app for interactive data visualizations using D3.js, featuring 6 distinct chart types enhanced with animations and interactive functionalities. \nEstablished RESTful APIs in Flask for efficient frontend-backend communication while simultaneously performing data preprocessing using Python and pandas.",
-
-    "technologies": ["JavaScript", "D3.js", "Python", "Flask", "RESTful API" ],
-    "image": "./projectImages/D3project.png",
-    "link": null
-
+  {
+    "id": 1,
+    "title": "Data Processing and Storage Pipeline for E-Commerce Behavior Data",
+    "description": "This project involves building a big data pipeline to source, process, and visualize data. The pipeline consists of multiple steps, including data sourcing using Python, Kafka for data streaming, Apache Spark for ETL processing, and Tableau for data visualization.",
+    "technologies": [
+      "Apache Kafka",
+      "AWS",
+      "Apache Spark",
+      "Tableau",
+      "ETL",
+      "Batch Processing"
+    ],
+    "image": "./projectImages/bdArchitecture.png",
+    "link": "https://github.com/Pradyothsp/bd-pipeline"
   },
-
-  { 
-    "id": 2, 
-    "title": "Smart Museum Tours", 
-    "description": "Created an application leveraging Linked Open Data (LOD) to deliver artifact details within museums via QR code scans, utilizing React.js and SPARQL. Implemented a Spring Boot application with REST APIs and integrated that with AWS-hosted Fuseki servers via the Apache Jena framework.",
-    "technologies": ["ReactJS", "JAVA",  "Spring Boot", "SPARQL", "RESTful API"],
-    "image": "./projectImages/smartmuseum.png",
-    "link": "https://github.com/MohnishMagesh/museum-project-531/"
+  {
+    "id": 2,
+    "title": "World Energy Consumption Visualized",
+    "description": "The 'World Energy Consumption Visualized' project uses interactive visualizations to explore the dynamic connection between global energy consumption and economic prosperity, offering insights through D3.js and Our World in Data's dataset.",
+    "technologies": [
+      "d3.js",
+      "Git",
+      "HTML/CSS",
+      "Pandas"
+    ],
+    "image": "./projectImages/energyConsumption.png",
+    "link": "https://github.com/Pradyothsp/dv-world-energy-consumption"
   },
-
-  
-  { 
-    "id": 3, 
-    "title": "Github Ideal Behaviors", 
-    "description": "Crafted a Python-based system using FastAPI framework to automatically categorize developers by their Git contributions, resulting in over 60% reduction in managerial investigation time. Employed a robust MVC architecture with Pydantic models to optimize data handling and system structure, achieving a code coverage of 96% through Pytest unit testing.", 
-    "technologies": ["Python", "FastAPI", "MVC", "Pytest", "Github"],
-    "image": "./projectImages/github.webp",
-    "link": null
+  {
+    "id": 3,
+    "title": "Backorder Prediction",
+    "description": "I built a high-performing Backorder Prediction System using machine learning. It accurately forecasts stock shortages (90% accuracy) and offers user-friendly interfaces for both individual product checks and bulk prediction via CSV files. The system leverages industry-standard tools like Django and scikit-learn for efficient development and deployment.",
+    "technologies": [
+      "Django",
+      "Docker",
+      "GitLab CI/CD",
+      "Django ORM",
+      "Model Building"
+    ],
+    "image": "./projectImages/backorderPredictionPredict.png",
+    "link": "https://gitlab.com/Pradyothsp/backorder-prediction"
   },
-
-  
-
-  { 
-    "id": 4, 
-    "title": "Personal Portofolio using ReactJS", 
-  "description": "Developed a dynamic personal portfolio website using React.js and Tailwind CSS, showcasing skills, projects, and experiences. Implemented responsive design, smooth navigation, and a contact form for user interaction. Hosted the website on GitHub Pages for easy access and continuous updates",
-    "technologies": ["ReactJS" , "JSON", "TailWind CSS", "Github" ],
-    "image": "./projectImages/portfolio.png",
-    "link": "https://sanikag123.github.io/my-portfolio/"
+  {
+    "id": 4,
+    "title": "Person Detection Using Embarrassingly Parallel Computing",
+    "description": "This project utilizes parallel processing to improve pedestrian detection in videos. It leverages a pre-trained YOLOv3 model for object detection and harnesses the power of multi-core processors for faster frame processing. The system is designed to be scalable, allowing for efficient processing of large video datasets.",
+    "technologies": [
+      "Object Detection",
+      "PyTorch",
+      "YOLOv3",
+      "OpenCV",
+      "Parallel Computing",
+      "Linux"
+    ],
+    "image": "./projectImages/parallelPersonDetection.png",
+    "link": "https://github.com/Pradyothsp/person-detection-using-embarrassingly-parallel-computating"
   },
-  
-  { 
-    "id": 5, 
-    "title": "Automatic defect Inspector based on CNN and Computer Vision", 
-    "description": "Developed an CNN model for automated inspection system utilizing TensorFlow, OpenCV, achieving a 16% efficiency improvement and comparing the accuracy of YOLO v3 (mAP 71.65%) and Faster R-CNN (mAP 42.69%) algorithms.",
-    "technologies": ["CNN" , "Python", "Tensorflow", "Pandas" ],
-    "image": "./projectImages/undegrad.png",
-    "link": null
-  },
-
-  { 
-    "id": 6, 
-    "title": "Automated Testing with Cypress", 
-"description": "Leveraged Cypress for end-to-end testing, ensuring web app functionality, performance, and reliability. Developed targeted test suites covering critical user flows. ",
-    "technologies": ["Cypress" , "JavaScript", "HTML/CSS" ],
-    "image": "./projectImages/cypress.png",
-    "link": null
-  },
-
-  { 
-    "id": 7, 
-    "title": "ManPac: A 3D realistic PacMan", 
-"description": "Engineered intricate gameplay mechanics and interactive features using C# scripting within the Unity Engine to recreate the classic Pac-Man experience in a 3D environment. Integrated a diverse range of assets from the Unity Asset Store, including 3D models, textures, and animations, to enhance visual fidelity and realism, capturing the essence of the beloved arcade game.",
-    "technologies": ["Unity" , "C#"],
-    "image": "./projectImages/game.png",
-    "link": "https://play.unity.com/mg/other/manpac-build-webgl"
-  },
-
-  { 
-    "id": 8, 
-    "title": "Virtual waitress android app", 
-"description": "Designed and developed an Android application utilizing SQLite database to facilitate food ordering at a specific restaurant.",
-    "technologies": ["Android" , "SQLite"],
-    "image": "./projectImages/android.avif",
-    "link": null
+  {
+    "id": 5,
+    "title": "Customer Segmentation Clustering",
+    "description": "This project aims to use k-means and Agglomerative clustering to segment customers into different groups based on their characteristics and purchasing habits. The goal is to understand the similarities and differences between the customer segments, which can help inform marketing strategies and target specific groups of customers.",
+    "technologies": [
+      "Python",
+      "K-means",
+      "Agglomerative Clustering",
+      "PCA",
+      "Feature Engineering"
+    ],
+    "image": "./projectImages/customersClusters.png",
+    "link": "https://github.com/Pradyothsp/Customer_Segmentation_Clustering"
   }
-
-
 ]

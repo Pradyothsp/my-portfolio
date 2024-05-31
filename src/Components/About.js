@@ -35,7 +35,7 @@ export default function About() {
             </div>
           </a>
         </div>
-        <img src="./IMG_5624.png" alt="image" className="md:w-90 md:h-90 sm:w-2/5 xs:w-20 xs:h-20 ml-200" />
+        <img src="./profile.png" alt="image" className="md:w-90 md:h-90 sm:w-2/5 xs:w-20 xs:h-20 ml-200" />
       </div>
     </section>
   );
