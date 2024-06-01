@@ -52,40 +52,39 @@ export default function Projects() {
 
                     {projectsData.map(project => (
                         <div key={project.id} className=" w-full sm:w-1/2 md:w-1/2 lg:w-1/2 p-4">
-                            <div className=" h-full bg-gray-300 shadow-md rounded-lg px-10 py-10 cursor-pointer transition-transform transform hover:text-white hover:-translate-y-5 " >
+                            <div className="h-full shadow-md rounded-lg px-10 py-10 cursor-pointer transition-transform transform hover:-translate-y-5 border-4 border-green-300 bg-gray-800">
                                 <a href={project.link}>
                                     <img
                                         alt="gallery"
-                                        className="border-8 border-green-300  absolute inset-0 object-cover h-full w-full object-top hover:opacity-0"
+                                        className="object-cover h-80 w-full object-top, rounded-lg"
                                         src={project.image}
                                     />
                                 </a>
-                                <div className="h-full w-full bg-white cursor-pointer "  >
-                                    <div className="flex flex-col">
-                                        <h2 className="text-3xl font-bold mb-2 text-black p-2">{project.title}</h2>
-                                        {project.link != null ?
+                                <div className="cursor-pointer">
+                                    <div className="flex flex-col space-y-4">
+                                        <h2 className="text-3xl font-bold text-white p-2">{project.title}</h2>
+                                        <ul className="list-none flex flex-wrap items-center text-xl">
+                                            {project.technologies.map((skill, index) => (
+                                                <li className="text-gray-400 bg-gray-700 rounded-full p-2 mr-2 mb-2 text-white" key={index}>{skill}</li>
+                                            ))}
+                                        </ul>
+                                        <div className="p-4">
+                                            <p className="text-gray-400 text-xl text-white overflow-hidden" style={{ lineHeight: '1.5rem', maxHeight: '10rem' }}>
+                                                {project.description}
+                                            </p>
+                                        </div>
+                                        {project.link && (
                                             <a
                                                 href={project.link}
-                                                className="border border-gray-300 text-xl text-blue-600 mb-2 p-4"
+                                                className="text-xl text-blue-300 p-4 flex items-center"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                             >
                                                 Project Homepage
+                                                <i className="fas fa-arrow-right ml-2"></i>
                                             </a>
-                                            : 'None'
-                                        }
+                                        )}
                                     </div>
-                                    <p className="text-xl text-gray-600 mb-2 p-4">{project.description}</p>
-                                    <ul className="mb-2 list-none p-auto flex flex-wrap items-center text-xl text-xl">
-                                        {project.technologies.map((skill, index) => (
-                                            <li className="bg-gray-700 rounded-full p-2 mr-2 mb-2" key={index}>{skill}</li>
-                                        ))}
-                                    </ul>
-                                    <div>
-
-                                        {/* <a href={project.link} className="border border-gray-300 text-xl text-blue-600 mb-2 p-4">Project Homepage </a> */}
-                                    </div>
-
                                 </div>
                             </div>
                         </div>

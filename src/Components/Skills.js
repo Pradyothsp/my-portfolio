@@ -27,10 +27,10 @@ export default function Skills() {
 
     var c = isVisibleSkill ? 'fade-in' : 'opacity-0'
     return (
-       
+
         <section id="skills" className="container mx-auto flex px-10 py-60 flex-col" >
 
-   
+
             <h2 className="mb-4 flex title-font sm:text-5xl text-5xl mb-4 font-medium text-green-300">Skills</h2>
             <div class="border-b border-gray-400 w-full"></div>
             {skills.map(skill => (
@@ -39,9 +39,9 @@ export default function Skills() {
                         <p>{skill.title}</p>
                     </div>
                     <div class="md:w-3/4  flex items-start flex-col fade-in">
-                    
+
                         {/* <ul className=" p-4  mr-20 list-none flex justify-center text-xl "> */}
-                        <ul className="mb-1/2 list-none p-auto flex flex-col sm:flex-row xs:flex-col md:flex-wrap  items-center text-xl text-xl">    
+                        <ul className="mb-1/2 list-none p-auto flex flex-col sm:flex-row xs:flex-col md:flex-wrap  items-center text-xl text-xl">
                             {skill.tech.map((skill, index) => (
                                 <li className="p-4 bg-gray-700 text-white rounded-xl  mr-4 mb-2 hover:bg-gray-300 hover:text-black" key={index}>{skill}</li>
                             ))}
@@ -49,8 +49,8 @@ export default function Skills() {
                     </div>
                 </div>
             ))}
-            
+
         </section>
-        
+
     );
 }
